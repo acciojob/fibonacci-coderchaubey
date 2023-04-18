@@ -5,7 +5,7 @@ function fibonacci(num) {
 	}else if (num===1) {
 		return 1;
 	}
-	return fibonacci(num-2)+fibonacci(num-1);
+	return fibonacci(num-1)+fibonacci(num-2);
 }
 
 module.exports = fibonacci;
